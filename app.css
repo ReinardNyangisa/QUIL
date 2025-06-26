@@ -37,6 +37,8 @@ GREY
 Base: #495057 (Slate)
 tint: #f1f3f5 (Pebble)
 shade: #212529 (Graphite)
+white: #ffffff (white)
+Black: #000000 (Black)
 
 */
 
@@ -98,27 +100,46 @@ ul {
 /* ----------------------- COMPONENTS -----------------------*/
 
 .btn {
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
 
 .btn-primary:link, .btn-primary:visited {
-    color: #339af0;
+    color: #ffffff;
+    background-color: #339af0;
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: #1c7ed6;
+    color: #ffffff;
+    background-color: #1c7ed6;
 }
 
 .btn-secondary:link, .btn-secondary:visited {
-    color: #9775fa;
+    color: #ffffff;
+    background-color: #9775fa;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
-    color: #7048e8;
+    color: #ffffff;
+    background-color: #7048e8;
 }
+
+.highlight {
+    color: #ffffff;
+}
+
+.highlight-primary {
+    background-color: #339af0;
+}
+
+.highlight-secondary {
+    background-color: #7048e8;
+}
+
+.highlight-tertiary {
+    background-color: #ff922b;
+}
+
 
 /* ----------------------- SECTIONS -----------------------*/
 
@@ -139,6 +160,10 @@ ul {
 
 .cta-section {
     text-align: center;
+}
+
+.cta-card {
+    background-color: #339af0;
 }
 
 
