@@ -40,13 +40,23 @@ shade: #212529 (Graphite)
 
 */
 
+/* ----------------------- GLOBAL STYLES -----------------------*/
+
+/* Add in universal selector later to remove default spacing propereties */
+
+body {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     text-align: center;
     line-height: 1.2;
     letter-spacing: -2;
     font-size: 62px;
-    font-family: 'poppins',sans-serif;
     color: #212529;
 
 }
@@ -68,13 +78,6 @@ h5 {
     font-size: 24px;
 }
 
-p, a, .small-text {
-    font-weight: 400;
-    line-height: 1.5;
-    font-family: 'poppins',sans-serif;
-    color: #495057;
-}
-
 p {  
     font-size: 20px;   
 }
@@ -91,6 +94,8 @@ ul {
 .small-text {
     font-size: 12px;
 }
+
+/* ----------------------- COMPONENTS -----------------------*/
 
 .btn {
     font-weight: 400;
@@ -114,3 +119,32 @@ ul {
 .btn-secondary:hover, .btn-secondary:active {
     color: #7048e8;
 }
+
+/* ----------------------- SECTIONS -----------------------*/
+
+/* ------ HERO SETION ------*/
+
+.hero-section {
+    text-align: center;
+}
+
+
+/* ------ FEATURES SECTION ------*/
+
+.features-man-heading {
+    text-align: center;
+}
+
+/* ------ CTA SECTION ------*/
+
+.cta-section {
+    text-align: center;
+}
+
+
+/* ------ FOOTER SECTION ------*/
+
+.footer {
+    text-align: center;
+}
+
