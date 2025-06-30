@@ -45,17 +45,31 @@ Black: #000000 (Black)
 
 4px / 8px / 20px
 
+--------- SPACING SYSTEM ---------
+
+5px / 10px / 15px / 20px / 25px / 30px / 40px / 50px / 60px / 70px / 80px / 90px / 100px / 125px / 150px / 200px / 300px / 400px / 500px /  
+
 */
 
 /* ----------------------- GLOBAL STYLES -----------------------*/
 
-/* Add in universal selector later to remove default spacing propereties */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
+}
+
+.container {
+    width: 1200;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -92,11 +106,16 @@ p {
 a {
     text-decoration: none;
     font-size: 16px;
+    display: inline-block;
 }
 
 ul {
     list-style: none;
 } 
+
+span {
+    display: inline-block;
+}
 
 .small-text {
     font-size: 12px;
@@ -150,7 +169,7 @@ ul {
 .highlight {
     color: #ffffff;
     padding: 5px 10px;
-    border-radius: 4%;
+    border-radius: 4px;
 }
 
 .highlight-primary {
@@ -175,16 +194,38 @@ ul {
 
 /* ----------------------- SECTIONS -----------------------*/
 
+/* ------ NAVBAR ------*/
+
+.navbar {
+    margin-bottom: 200px;
+}
+
 /* ------ HERO SETION ------*/
 
 .hero-section {
     text-align: center;
+    margin-bottom: 300px;
 }
 
+.hero-heading {
+    margin-bottom: 10px;
+}
 
+.hero-paragraph {
+    margin-bottom: 50px;
+}
 /* ------ FEATURES SECTION ------*/
+
+.features-section {
+    margin-bottom: 300px;
+}
 .features-man-heading {
     text-align: center;
+    margin-bottom: 80px;
+}
+
+.feature-headings {
+    margin-bottom: 20px;
 }
 
 .feature-img {
@@ -194,7 +235,7 @@ ul {
 /* ------ CTA SECTION ------*/
 
 .cta-section {
-    text-align: center;
+    margin-bottom: 300px;
 }
 
 .cta-card {
@@ -203,8 +244,12 @@ ul {
     width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
+.cta-heading {
+    margin-bottom: 30px;
+}
 
 /* ------ FOOTER SECTION ------*/
 
