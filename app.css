@@ -69,6 +69,7 @@ body {
 
 .container {
     max-width: 1200px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -229,7 +230,8 @@ span {
 }
 
 .feature-img {
-    width: 400px;
+   max-width: 400px;
+   width: 100%;
 }
 
 /* ------ CTA SECTION ------*/
