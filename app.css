@@ -95,6 +95,7 @@ Black: #000000 (Black)
     --color-black: #000000; /* Black */
 
     /* ----- MISCELLANEOUS ----- */
+     
     --Navbar-height: 300px; 
 }
 
@@ -259,6 +260,8 @@ span {
 .navbar {
     height: var(--Navbar-height);
     margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ------ HERO SETION ------*/
@@ -282,6 +285,7 @@ span {
 .features-section {
     margin-bottom: 30rem;
 }
+
 .features-main-heading {
     text-align: center;
     margin-bottom: 8rem;
@@ -318,7 +322,8 @@ span {
 /* ------ FOOTER SECTION ------*/
 
 .footer {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-icons {
