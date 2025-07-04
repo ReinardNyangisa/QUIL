@@ -93,6 +93,9 @@ Black: #000000 (Black)
     --color-grey-shade: #212529; /* Graphite */
     --color-white: #ffffff; /* White */
     --color-black: #000000; /* Black */
+
+    /* ----- MISCELLANEOUS ----- */
+    --Navbar-height: 300px; 
 }
 
 
@@ -246,22 +249,25 @@ span {
 /* ----------------------- SECTIONS -----------------------*/
 /* ----------- HEADER (NAVBAR + HERO SECTION -----------*/
 
-.header {
+/* .header {
     height: 100vh;
     min-height: 800px;
-}
+} */
 
 /* ------ NAVBAR ------*/
 
 .navbar {
-    margin-bottom: 20rem;
+    height: var(--Navbar-height);
+    margin-bottom: 10rem;
 }
 
 /* ------ HERO SETION ------*/
 
 .hero-section {
+    height: calc(100vh - var(--Navbar-height));
+    min-height: 400px;
     text-align: center;
-    margin-bottom: 30rem;
+    margin-bottom: 5rem;
 }
 
 .hero-heading {
