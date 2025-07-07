@@ -275,21 +275,32 @@ span {
 .hero-section {
     height: calc(100vh - var(--Navbar-height));
     min-height: 400px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-heading {
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .hero-paragraph {
     margin-bottom: 5rem;
 }
+
+.hero-btn-container {
+    display: flex;
+    gap: 2rem;
+}
 /* ------ FEATURES SECTION ------*/
 
 .features-section {
     margin-bottom: 30rem;
+
 }
 
 .features-main-heading {
@@ -310,6 +321,8 @@ span {
 
 .cta-section {
     margin-bottom: 30rem;
+    display: flex;
+    justify-content: center;
 }
 
 .cta-card {
@@ -317,8 +330,7 @@ span {
     background-color: var(--color-primary-base);
     max-width: 1000px;
     padding: 10rem 20rem;
-    border-radius: 20px;
-    margin: 0 auto;
+    border-radius: 20px; 
 }
 
 .cta-heading {
