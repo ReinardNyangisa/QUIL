@@ -308,6 +308,13 @@ span {
     margin-bottom: 8rem;
 }
 
+.features-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    
+
 .feature-headings {
     margin-bottom: 2rem;
 }
