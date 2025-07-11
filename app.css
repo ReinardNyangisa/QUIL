@@ -163,6 +163,10 @@ a {
     display: inline-block;
 }
 
+a:link, a:visited {
+    color: var(--color-grey-base);
+}
+
 ul {
     list-style: none;
 } 
@@ -317,6 +321,10 @@ span {
     align-items: center;
 }
 
+.feature-img-swap-order {
+    grid-row: 2 / 3;
+grid-column: 1 / 2;
+}
     
 
 .feature-headings {
@@ -368,4 +376,8 @@ span {
 
 .social-icons {
     width: 20px;
+}
+
+.heart-icon {
+    color: var(--color-secondary-base);
 }
