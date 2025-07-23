@@ -222,6 +222,7 @@ span {
     color: var(--color-white);
     background-color: var(--color-primary-shade);
     border: 2px solid var(--color-primary-shade);
+    transform: scale(1.2, 1.5);
 }
 
 .btn-primary-outline:link,
@@ -250,6 +251,7 @@ span {
     color: var(--color-white);
     background-color: var(--color-secondary-shade);
     border: 2px solid var(--color-secondary-shade);
+
 }
 
 .highlight {
@@ -289,7 +291,7 @@ span {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    
+
 }
 
 .chat-icon {
